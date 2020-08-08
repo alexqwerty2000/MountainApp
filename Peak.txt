@@ -1,0 +1,6 @@
+Name,Height,Situated,Latitude,Longitude
+Hoverla,2061.0,Chornohora,48.16,24.5
+Brebeneskyul,2035.8,Chornohora,48.08,24.58
+Pop Ivan Chonohorskii,2020.5,Chornohora,48.05,24.63
+Petros,2022.5,Chornohora,48.18,24.42
+Makovica,978,Makovica,48.65,22.59

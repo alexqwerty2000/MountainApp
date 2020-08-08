@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e77b200d8f0e4b73a9fed2658e30dfc9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e77b200d8f0e4b73a9fed2658e30dfc9" ></div>
+        
+</body>
+<script>    
+    
+            var map_e77b200d8f0e4b73a9fed2658e30dfc9 = L.map(
+                "map_e77b200d8f0e4b73a9fed2658e30dfc9",
+                {
+                    center: [50.24, 30.27],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3cac31f161ef4e3c9a740edad73665f8 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e77b200d8f0e4b73a9fed2658e30dfc9);
+        
+    
+            var feature_group_5d944549fa624ba9bad485876eb9fc48 = L.featureGroup(
+                {}
+            ).addTo(map_e77b200d8f0e4b73a9fed2658e30dfc9);
+        
+    
+            var marker_6231b45a756e4a1387fa294c68017880 = L.marker(
+                [48.16, 24.5],
+                {}
+            ).addTo(feature_group_5d944549fa624ba9bad485876eb9fc48);
+        
+    
+            var icon_196c30373a754740848aa11b45be8988 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6231b45a756e4a1387fa294c68017880.setIcon(icon_196c30373a754740848aa11b45be8988);
+        
+    
+        var popup_691432675be145bd9cd36b5033118063 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_458587b3c3e848f58e9776332803e2ad = $(`<div id="html_458587b3c3e848f58e9776332803e2ad" style="width: 100.0%; height: 100.0%;">Hoverla 2061.0</div>`)[0];
+            popup_691432675be145bd9cd36b5033118063.setContent(html_458587b3c3e848f58e9776332803e2ad);
+        
+
+        marker_6231b45a756e4a1387fa294c68017880.bindPopup(popup_691432675be145bd9cd36b5033118063)
+        ;
+
+        
+    
+    
+            var marker_1ebe38dceb5b4ace9ff1ed2e38eb3664 = L.marker(
+                [48.08, 24.58],
+                {}
+            ).addTo(feature_group_5d944549fa624ba9bad485876eb9fc48);
+        
+    
+            var icon_647f2d9d44f8481c8581f9a3ef4864f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1ebe38dceb5b4ace9ff1ed2e38eb3664.setIcon(icon_647f2d9d44f8481c8581f9a3ef4864f8);
+        
+    
+        var popup_dbfb2656d7b24a41ac1afea5f9459c8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4613d15e89b434a8c5a105886ec924c = $(`<div id="html_d4613d15e89b434a8c5a105886ec924c" style="width: 100.0%; height: 100.0%;">Brebeneskyul 2035.8</div>`)[0];
+            popup_dbfb2656d7b24a41ac1afea5f9459c8f.setContent(html_d4613d15e89b434a8c5a105886ec924c);
+        
+
+        marker_1ebe38dceb5b4ace9ff1ed2e38eb3664.bindPopup(popup_dbfb2656d7b24a41ac1afea5f9459c8f)
+        ;
+
+        
+    
+    
+            var marker_48849e6627e8468f828d2e106dd3da94 = L.marker(
+                [48.05, 24.63],
+                {}
+            ).addTo(feature_group_5d944549fa624ba9bad485876eb9fc48);
+        
+    
+            var icon_6f5f5abdcfcc45cbab8e551162ecfd30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_48849e6627e8468f828d2e106dd3da94.setIcon(icon_6f5f5abdcfcc45cbab8e551162ecfd30);
+        
+    
+        var popup_fe2a5f600b844f06bec7716e5ca15dea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85043a94d7ee41daadd3891832a51a78 = $(`<div id="html_85043a94d7ee41daadd3891832a51a78" style="width: 100.0%; height: 100.0%;">Pop Ivan Chonohorskii 2020.5</div>`)[0];
+            popup_fe2a5f600b844f06bec7716e5ca15dea.setContent(html_85043a94d7ee41daadd3891832a51a78);
+        
+
+        marker_48849e6627e8468f828d2e106dd3da94.bindPopup(popup_fe2a5f600b844f06bec7716e5ca15dea)
+        ;
+
+        
+    
+    
+            var marker_a7022c0d1d2d499eaf2ec9490fb7fba9 = L.marker(
+                [48.18, 24.42],
+                {}
+            ).addTo(feature_group_5d944549fa624ba9bad485876eb9fc48);
+        
+    
+            var icon_185120d0a7fb473bb867a103f0e8eeb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a7022c0d1d2d499eaf2ec9490fb7fba9.setIcon(icon_185120d0a7fb473bb867a103f0e8eeb8);
+        
+    
+        var popup_ea10dde029a64cadb180ebf0b742bbaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dc711ef53ca41f4818ef8c2c453e16f = $(`<div id="html_8dc711ef53ca41f4818ef8c2c453e16f" style="width: 100.0%; height: 100.0%;">Petros 2022.5</div>`)[0];
+            popup_ea10dde029a64cadb180ebf0b742bbaf.setContent(html_8dc711ef53ca41f4818ef8c2c453e16f);
+        
+
+        marker_a7022c0d1d2d499eaf2ec9490fb7fba9.bindPopup(popup_ea10dde029a64cadb180ebf0b742bbaf)
+        ;
+
+        
+    
+    
+            var marker_8ed23d051883429fa3ad255a4d425df0 = L.marker(
+                [48.65, 22.59],
+                {}
+            ).addTo(feature_group_5d944549fa624ba9bad485876eb9fc48);
+        
+    
+            var icon_41961069a81a47e0b741c7c46f2777ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8ed23d051883429fa3ad255a4d425df0.setIcon(icon_41961069a81a47e0b741c7c46f2777ba);
+        
+    
+        var popup_0973126f10ad49ae92369c731a1d4232 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da54ca3b59024a7b965d824a693cd97d = $(`<div id="html_da54ca3b59024a7b965d824a693cd97d" style="width: 100.0%; height: 100.0%;">Makovica 978.0</div>`)[0];
+            popup_0973126f10ad49ae92369c731a1d4232.setContent(html_da54ca3b59024a7b965d824a693cd97d);
+        
+
+        marker_8ed23d051883429fa3ad255a4d425df0.bindPopup(popup_0973126f10ad49ae92369c731a1d4232)
+        ;
+
+        
+    
+</script>
